@@ -70,7 +70,9 @@ sections:
         - name: Product & Delivery
           items:
             - name: Product Ownership
+            - name: Requirements Engineering
             - name: Roadmap Planning
+            - name: Stakeholder Management
             - name: Supplier Management
             - name: Budget Management
         - name: AI & Perception
