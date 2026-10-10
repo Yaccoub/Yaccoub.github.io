@@ -57,12 +57,6 @@ experience:
       Apr 2021 – Aug 2022
       - Researched the effects of simulated point cloud distortion on real-time 3D object detection models across diverse driving scenarios.
       - Developed calibration and distortion-correction algorithms for solid-state LiDAR point clouds distorted by cover surfaces.
-  - role: Instructor, Data Structures and Algorithms
-    org: Bavarian Academy for Foreign Trade · Munich
-    start: 2022-05-01
-    end: 2022-09-30
-    summary: |
-      - Taught "Data Structures and Algorithms" to 25 participants in a software development vocational retraining course.
   - role: Research Intern, Artificial Intelligence
     org: Hospital on Mobile · Palo Alto, CA (remote)
     start: 2020-10-01

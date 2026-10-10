@@ -108,25 +108,23 @@ sections:
       spacing:
         padding: ["3rem", "0", "3rem", "0"]
 
-  # 7. Teaching and languages (one compact section)
+  # 7. Workshops, volunteering and languages (one compact section)
   - block: markdown
     id: more
     content:
-      title: Teaching & Languages
+      title: Workshops, Volunteering & Languages
       text: |-
-        **Workshops & Teaching**
-        - AI workshops and hackathons, BMW Group (since 2024): co-organized a cross-departmental series for 200+ employees on building and applying agentic AI workflows.
-        - Data Structures and Algorithms, Bavarian Academy for Foreign Trade (2022): taught 25 participants in a software development vocational retraining course.
+        **Workshops:** AI workshops and hackathons, BMW Group (since 2024). Co-organized a series on agentic AI workflows for 200+ colleagues.
 
+        **Volunteering (Ehrenamtlich):** Instructor, Data Structures and Algorithms, Bavarian Academy for Foreign Trade (2022). Taught 25 participants in a software development retraining course.
 
-        **Languages**
-        - French and Arabic (bilingual) · English and German (proficient) · Spanish (intermediate)
+        **Languages:** French and Arabic (bilingual) · English and German (proficient) · Spanish (intermediate)
     design:
       background:
         color:
           light: "#ffffff"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["2rem", "0", "2rem", "0"]
 
   # 8. Contact
   - block: contact-info
