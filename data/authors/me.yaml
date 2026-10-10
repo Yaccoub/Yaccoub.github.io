@@ -6,11 +6,10 @@ name:
   given: Alaeddine
   family: Yacoub
 role: Technical Product Owner · Autonomous Driving Data & AI
-bio: >
-  Data and AI enthusiast and curious, lifelong learner. I thrive in fast-paced environments,
-  enjoy working in diverse teams and love the space between engineering and business. I believe
-  decisions should never be made on gut feeling: the best products come from understanding the
-  data first, then building something simple that solves the real problem and actually gets used.
+bio: |
+  I'm an engineer who moved into product. I work on data and AI for autonomous driving at BMW Group in Munich, helping teams find the right driving data and turn it into better models. I split my time between code and budgets. Both need debugging.
+
+  I like hard problems, simple solutions and mixed teams. I'd rather check the data than trust my gut. Outside work, I run, cycle and watch too much Formula 1.
 affiliations:
   - name: BMW Group
     url: https://www.bmwgroup.com/

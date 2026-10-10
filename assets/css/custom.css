@@ -214,3 +214,16 @@ section h2 + p {
 #publications div.w-full.flex.flex-col.gap-6 {
   flex-direction: column-reverse !important;
 }
+
+/* Hero bio: the theme wraps the bio in a <p>, so multi-paragraph bios render as sibling <p>s
+ * outside the styled wrapper. Restore colour, spacing and the gap before the social icons. */
+#hero p {
+  color: #6e6e73;
+  margin-bottom: 0.75rem;
+}
+#hero h1 + p {
+  color: #1d1d1f;
+}
+#hero div.flex.items-center.justify-center.gap-4 {
+  margin-top: 1.25rem;
+}
