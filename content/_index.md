@@ -30,7 +30,7 @@ sections:
         color:
           light: "#ffffff"
       spacing:
-        padding: ["3.5rem", "0", "2.5rem", "0"]
+        padding: ["2rem", "0", "1.5rem", "0"]
 
   # 4. Experience & education timeline
   - block: experience
@@ -45,7 +45,7 @@ sections:
         color:
           light: "#f5f5f7"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["1.5rem", "0", "1.5rem", "0"]
 
   # 5. Publications
   - block: awards
@@ -58,7 +58,7 @@ sections:
         color:
           light: "#ffffff"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["1.5rem", "0", "1.5rem", "0"]
 
   # 6. Toolbox
   - block: tech-stack
@@ -106,7 +106,7 @@ sections:
         color:
           light: "#f5f5f7"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["1.5rem", "0", "1.5rem", "0"]
 
   # 7. Workshops, volunteering and languages (one compact section)
   - block: markdown
@@ -124,7 +124,7 @@ sections:
         color:
           light: "#ffffff"
       spacing:
-        padding: ["2rem", "0", "2rem", "0"]
+        padding: ["1.25rem", "0", "1.25rem", "0"]
 
   # 8. Contact
   - block: contact-info
@@ -141,5 +141,5 @@ sections:
         color:
           light: "#f5f5f7"
       spacing:
-        padding: ["3rem", "0", "4rem", "0"]
+        padding: ["1.5rem", "0", "2rem", "0"]
 ---
