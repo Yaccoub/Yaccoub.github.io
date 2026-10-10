@@ -1,8 +1,5 @@
 # Navigation links to homepage sections (`#` + section id). Weight sets the order.
 main:
-  - name: About
-    url: /#about
-    weight: 10
   - name: Publications
     url: /#publications
     weight: 35

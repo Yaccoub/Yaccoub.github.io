@@ -32,29 +32,6 @@ sections:
       spacing:
         padding: ["3.5rem", "0", "2.5rem", "0"]
 
-  # 3. What I do
-  - block: features
-    id: about
-    content:
-      title: What I Do
-      text: I work where autonomous driving engineering meets product delivery.
-      items:
-        - name: Product Ownership
-          icon: presentation-chart-line
-          description: Turning stakeholder needs into requirements, priorities and a shared roadmap across BMW teams and external partners in three countries, including partner budget and procurement.
-        - name: AI & Data Engineering
-          icon: cpu-chip
-          description: Vision-language models, multimodal embeddings and vector search that make fleet driving data searchable and model-ready, from ground-truth pipelines to scenario discovery.
-        - name: Enablement
-          icon: user-group
-          description: Hands-on AI workshops and hackathons on agentic workflows for 200+ colleagues, and teaching data structures and algorithms.
-    design:
-      background:
-        color:
-          light: "#ffffff"
-      spacing:
-        padding: ["3rem", "0", "3rem", "0"]
-
   # 4. Experience & education timeline
   - block: experience
     id: experience
