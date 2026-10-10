@@ -57,7 +57,6 @@ experience:
       Apr 2021 – Aug 2022
       - Researched the effects of simulated point cloud distortion on real-time 3D object detection models across diverse driving scenarios.
       - Developed calibration and distortion-correction algorithms for solid-state LiDAR point clouds distorted by cover surfaces.
-    tags: [Product Ownership, Roadmap Planning, Supplier Management, Vision-Language Models, Vector Search, Python, C++, AWS, Kubernetes, LiDAR]
   - role: Instructor, Data Structures and Algorithms
     org: Bavarian Academy for Foreign Trade · Munich
     start: 2022-05-01

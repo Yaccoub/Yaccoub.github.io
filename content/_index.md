@@ -67,34 +67,35 @@ sections:
       title: Toolbox
       subtitle: Tools I have used in production and research.
       categories:
-        - name: Languages
+        - name: Product & Delivery
+          items:
+            - name: Product Ownership
+            - name: Roadmap Planning
+            - name: Supplier Management
+            - name: Budget Management
+        - name: AI & Perception
+          items:
+            - name: VLM Fine-Tuning & Evaluation
+            - name: Vector Search
+            - name: RAG
+            - name: LangGraph
+            - name: MCP
+            - name: Langfuse
+            - name: vLLM
+            - name: LiDAR
+            - name: Sensor Calibration & Fusion
+        - name: Cloud & Engineering
           items:
             - name: Python
               icon: devicon/python
-            - name: C++
-              icon: devicon/cplusplus
-            - name: SQL
-              icon: devicon/postgresql
-        - name: Cloud & Pipelines
-          items:
-            - name: AWS
-              icon: devicon/amazonwebservices
+            - name: PyTorch
+              icon: devicon/pytorch
+            - name: Amazon Bedrock
+            - name: Amazon SageMaker
+            - name: AWS Batch
             - name: Kubernetes
               icon: devicon/kubernetes
             - name: Argo Workflows
-              icon: devicon/argocd
-            - name: Docker
-              icon: devicon/docker
-        - name: AI & Perception
-          items:
-            - name: PyTorch
-              icon: devicon/pytorch
-            - name: TensorFlow
-              icon: devicon/tensorflow
-            - name: OpenCV
-              icon: devicon/opencv
-            - name: ROS
-              icon: devicon/ros
     design:
       style: grid
       show_levels: false
