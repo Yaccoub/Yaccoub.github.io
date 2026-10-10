@@ -1,51 +1,183 @@
 ---
-title: 'Home'
-date: 2023-10-24
+# Leave the homepage title empty to use the site title
+title: ''
+date: 2026-10-10
 type: landing
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
-  - block: biography
+  # 1. Hero: who I am, in one screen
+  - block: dev-hero
+    id: hero
     content:
       username: me
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Résumé
-        url: uploads/resume.pdf
-    design:
+      greeting: ""
       show_status: false
+      show_scroll_indicator: false
+      typewriter:
+        enable: false
+      cta_buttons:
+        - text: Download Résumé
+          url: uploads/Alaeddine-Yacoub-Resume.pdf
+          icon: arrow-down-tray
+        - text: Get in Touch
+          url: "#contact"
+          icon: envelope
+    design:
+      style: centered
+      avatar_shape: circle
+      animations: false
+      background:
+        color:
+          light: "#ffffff"
       spacing:
-        padding: ['0', '0', '6rem', '0']
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-      biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
-      avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
-  - block: experience
+        padding: ["3.5rem", "0", "2.5rem", "0"]
+
+  # 3. What I do
+  - block: features
+    id: about
     content:
+      title: What I Do
+      text: I work where autonomous driving engineering meets product delivery.
+      items:
+        - name: Product Ownership
+          icon: presentation-chart-line
+          description: Turning stakeholder needs into requirements, priorities and a shared roadmap across BMW teams and external partners in three countries, including partner budget and procurement.
+        - name: AI & Data Engineering
+          icon: cpu-chip
+          description: Vision-language models, multimodal embeddings and vector search that make fleet driving data searchable and model-ready, from ground-truth pipelines to scenario discovery.
+        - name: Enablement
+          icon: user-group
+          description: Hands-on AI workshops and hackathons on agentic workflows for 200+ colleagues, and teaching data structures and algorithms.
+    design:
+      background:
+        color:
+          light: "#ffffff"
+      spacing:
+        padding: ["3rem", "0", "3rem", "0"]
+
+  # 4. Experience & education timeline
+  - block: experience
+    id: experience
+    content:
+      title: Experience
       username: me
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
+      date_format: 'Jan 2006'
       is_education_first: false
-  - block: skills
+      background:
+        color:
+          light: "#f5f5f7"
+      spacing:
+        padding: ["3rem", "0", "3rem", "0"]
+
+  # 5. Featured work and projects
+  - block: portfolio
+    id: work
     content:
-      title: Skills & Hobbies
-      username: me
-  - block: awards
+      title: Work & Projects
+      subtitle: Selected work at BMW Group and projects from my studies.
+      count: 0
+      filters:
+        folders:
+          - projects
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Product
+          tag: Product
+        - name: AI & Data
+          tag: AI & Data
+        - name: Research
+          tag: Research
+      default_button_index: 0
+    design:
+      columns: 3
+      background:
+        color:
+          light: "#ffffff"
+      spacing:
+        padding: ["3rem", "0", "3rem", "0"]
+
+  # 6. Toolbox
+  - block: tech-stack
+    id: skills
     content:
-      title: Awards
-      username: me
-  - block: languages
+      title: Toolbox
+      subtitle: Tools I have used in production and research.
+      categories:
+        - name: Languages
+          items:
+            - name: Python
+              icon: devicon/python
+            - name: C++
+              icon: devicon/cplusplus
+            - name: SQL
+              icon: devicon/postgresql
+        - name: Cloud & Pipelines
+          items:
+            - name: AWS
+              icon: devicon/amazonwebservices
+            - name: Kubernetes
+              icon: devicon/kubernetes
+            - name: Argo Workflows
+              icon: devicon/argocd
+            - name: Docker
+              icon: devicon/docker
+        - name: AI & Perception
+          items:
+            - name: PyTorch
+              icon: devicon/pytorch
+            - name: TensorFlow
+              icon: devicon/tensorflow
+            - name: OpenCV
+              icon: devicon/opencv
+            - name: ROS
+              icon: devicon/ros
+    design:
+      style: grid
+      show_levels: false
+      background:
+        color:
+          light: "#f5f5f7"
+      spacing:
+        padding: ["3rem", "0", "3rem", "0"]
+
+  # 7. Teaching, publication and languages (one compact section)
+  - block: markdown
+    id: more
     content:
-      title: Languages
-      username: me
+      title: Teaching, Publication & Languages
+      text: |-
+        **Workshops & Teaching**
+        - AI workshops and hackathons, BMW Group (since 2024): co-organized a cross-departmental series for 200+ employees on building and applying agentic AI workflows.
+        - Data Structures and Algorithms, Bavarian Academy for Foreign Trade (2022): taught 25 participants in a software development vocational retraining course.
+
+        **Publication**
+        - [Spatio-temporal Short Term Photovoltaic Generation Forecasting with Uncertainty Estimates](https://ieeexplore.ieee.org/document/9209764), 55th International Universities Power Engineering Conference (UPEC 2020), IEEE.
+
+        **Languages**
+        - French and Arabic (bilingual) · English and German (proficient) · Spanish (intermediate)
+    design:
+      background:
+        color:
+          light: "#ffffff"
+      spacing:
+        padding: ["3rem", "0", "3rem", "0"]
+
+  # 8. Contact
+  - block: contact-info
+    id: contact
+    content:
+      title: Get in Touch
+      text: |-
+        I'm happy to talk about autonomous driving data, AI and product delivery.
+      email: yaccoubala@gmail.com
+      autolink: true
+    design:
+      columns: '1'
+      background:
+        color:
+          light: "#f5f5f7"
+      spacing:
+        padding: ["3rem", "0", "4rem", "0"]
 ---

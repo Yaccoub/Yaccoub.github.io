@@ -2,132 +2,144 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
-status:
-  icon: "☕️"
-role: Director of Cloud Infrastructure
+  display: Alaeddine Yacoub
+  given: Alaeddine
+  family: Yacoub
+role: Technical Product Owner · Autonomous Driving Data & AI
 bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind
-  optimization.
+  Data and AI enthusiast and curious, lifelong learner. I thrive in fast-paced environments,
+  enjoy working in diverse teams and love the space between engineering and business. I believe
+  decisions should never be made on gut feeling: the best products come from understanding the
+  data first, then building something simple that solves the real problem and actually gets used.
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: BMW Group
+    url: https://www.bmwgroup.com/
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:yaccoubala@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/alaeddine-yacoub
+  - icon: brands/github
+    url: https://github.com/Yaccoub
+
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
+  - degree: M.Sc. Electrical Engineering and Information Technology
+    institution: Technical University of Munich (TUM)
+    start: 2019-09-01
+    end: 2022-09-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+      Coursework in Computer Vision, Pattern Recognition, Machine Learning in Robotics and Deep Learning Optimization Methods.
+  - degree: B.Sc. Electrical Engineering and Information Technology
+    institution: Karlsruhe Institute of Technology (KIT)
+    start: 2015-10-01
+    end: 2019-08-31
     summary: |
-      GPA: 3.8/4.0
+      Coursework in Advanced Statistics, Probability Theory, Data Structures, Algorithms and Applied Machine Learning.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: BMW Group
+    org: 3 roles · Munich
+    start: 2021-04-01
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      **Technical Product Owner**  
+      Jan 2024 – Present
+      - Coordinate technical delivery across 20+ engineers at BMW and two external development partners in three countries, translating stakeholder needs into technical requirements, delivery priorities and a shared roadmap.
+      - Manage a €1M+ budget for external development partners, overseeing financial planning, procurement and budget burn-down tracking.
+      - Rolled out a semantic search portal for fleet driving data, cutting scenario discovery time from days to minutes and helping teams curate safety-relevant and long-tail cases for model retraining and validation.
+      - Co-organized a cross-departmental series of hands-on AI workshops and hackathons for 200+ employees on building and applying agentic AI workflows.
+
+      **Autonomous Driving Software Engineer**  
+      Sep 2022 – Dec 2023
+      - Developed core components of a data enrichment engine, making 100,000+ hours of driving data searchable through HD-map labels, signal-grounded VLM annotations and image-text embeddings to enable scenario discovery, similarity search and targeted data curation.
+      - Productionized an AWS-based ground-truth pipeline, using independent roof-mounted LiDAR and cameras to generate object, lane and road-boundary labels for benchmarking autonomous driving perception models.
+
+      **Intern / Master's Degree Candidate**  
+      Apr 2021 – Aug 2022
+      - Researched the effects of simulated point cloud distortion on real-time 3D object detection models across diverse driving scenarios.
+      - Developed calibration and distortion-correction algorithms for solid-state LiDAR point clouds distorted by cover surfaces.
+    tags: [Product Ownership, Roadmap Planning, Supplier Management, Vision-Language Models, Vector Search, Python, C++, AWS, Kubernetes, LiDAR]
+  - role: Instructor, Data Structures and Algorithms
+    org: Bavarian Academy for Foreign Trade · Munich
+    start: 2022-05-01
+    end: 2022-09-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Taught "Data Structures and Algorithms" to 25 participants in a software development vocational retraining course.
+  - role: Research Intern, Artificial Intelligence
+    org: Hospital on Mobile · Palo Alto, CA (remote)
+    start: 2020-10-01
+    end: 2021-03-31
+    summary: |
+      - Applied signal processing methods (wavelet and fast Fourier transforms) to remove motion artifacts from PPG signals, improving respiratory-rate prediction accuracy by 15% on average.
+  - role: Working Student, Software Development
+    org: Carl Zeiss AG · Munich
+    start: 2020-01-01
+    end: 2020-05-31
+    summary: |
+      - Migrated DeepVision Platform models (an in-house anomaly detection suite) to TensorFlow 2.0, enabling eager execution, improving flexibility and reducing debugging time by over 50%.
+  - role: Student Research Assistant, Machine Learning
+    org: Karlsruhe Institute of Technology · Karlsruhe
+    start: 2019-01-01
+    end: 2019-09-30
+    summary: |
+      - Designed and trained a bidirectional LSTM model to forecast the short-term power output of 22 photovoltaic plants across Karlsruhe, improving accuracy by 13% over the chair's SARIMAX baseline.
+      - Published the results at the 55th International Universities Power Engineering Conference (UPEC 2020).
+  - role: Working Student, Network Support
+    org: United Internet AG · Karlsruhe
+    start: 2017-09-01
+    end: 2019-12-31
+    summary: |
+      - Provided on-site third-level IT and network support for 8,500+ employees worldwide.
+
 skills:
-  - name: Technical Skills
+  - name: Product & Delivery
+    items:
+      - label: Technical project delivery
+      - label: Requirements engineering
+      - label: Supplier management
+      - label: Stakeholder coordination
+      - label: Roadmap planning
+      - label: Budget management
+  - name: AI & Data
+    items:
+      - label: Vision-language models
+      - label: Multimodal embeddings
+      - label: Vector search
+      - label: vLLM
+  - name: Autonomous Driving
+    items:
+      - label: SLAM
+      - label: LiDAR and camera systems
+      - label: HD maps
+      - label: Point clouds
+      - label: Sensor calibration
+  - name: Engineering
     items:
       - label: Python
-        level: 4
-      - label: RStudio
-        level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - label: Hiking
-        level: 3
-      - label: Cats
-        level: 5
-      - label: Photography
-        level: 4
+      - label: C++
+      - label: SQL
+      - label: AWS
+      - label: Kubernetes
+      - label: Argo Workflows
+      - label: Docker
+
 languages:
+  - name: French
+    level: Bilingual
+  - name: Arabic
+    level: Bilingual
   - name: English
-    level: 5
-  - name: Chinese
-    level: 4
-  - name: Portuguese
-    level: 1
+    level: Proficient
+  - name: German
+    level: Proficient
+  - name: Spanish
+    level: Intermediate
+
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: "2023-11-25"
-    awarder: Coursera
-    icon: brands/coursera
+  - title: "Spatio-temporal Short Term Photovoltaic Generation Forecasting with Uncertainty Estimates"
+    url: https://ieeexplore.ieee.org/document/9209764
+    awarder: 55th International Universities Power Engineering Conference (UPEC 2020) · IEEE
+    date: "2020-09-01"
+    icon: hero/document-text
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: "2023-07-01"
-    awarder: edX
-    icon: brands/edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: "Object-Oriented Programming in R"
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: "2023-01-21"
-    awarder: datacamp
-    icon: brands/datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Short-term power forecasting for 22 photovoltaic plants across Karlsruhe with a bidirectional LSTM, improving accuracy by 13% over a SARIMAX baseline.

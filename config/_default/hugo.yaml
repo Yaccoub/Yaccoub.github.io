@@ -5,7 +5,7 @@
 
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://yaccoub.github.io/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -32,7 +32,7 @@ footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects]
+  home: [HTML, RSS]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos

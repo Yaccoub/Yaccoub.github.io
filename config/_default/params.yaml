@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Alaeddine Yacoub"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Technical Product Owner · Autonomous Driving Data & AI"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Alaeddine Yacoub is a Technical Product Owner for autonomous driving data and AI at BMW Group in Munich: vision-language models, multimodal search and ground-truth pipelines for fleet driving data."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -33,14 +32,14 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: "#0071e3" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      neutral: "neutral" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -61,7 +60,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "modern"
+    pack: "system"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -69,7 +68,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "lg"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "comfortable"
     # Avatar shape in author profiles
@@ -82,21 +81,21 @@ hugoblox:
   header:
     enable: true
     # Header style variant
-    style: floating-theme-toggler # navbar | navbar-simple | minimal
+    style: navbar # navbar | navbar-simple | minimal
     # Stick to top on scroll
     sticky: true
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
     search: false
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
-      enable: true
+      enable: false
       text: "Download Résumé"
-      url: "uploads/resume.pdf"
+      url: "uploads/Alaeddine-Yacoub-Resume.pdf"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
@@ -105,7 +104,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -115,9 +114,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}"
     license:
-      type: cc # cc | custom
+      type: custom # cc | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -128,7 +127,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Alaeddine Yacoub – Technical Product Owner, Autonomous Driving Data & AI"
     # For local_business identity type only
     location:
       address:
