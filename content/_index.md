@@ -82,6 +82,7 @@ sections:
             - name: MCP
             - name: Langfuse
             - name: vLLM
+            - name: Physical AI
             - name: Sensor Calibration & Fusion
         - name: Cloud & Engineering
           items:
