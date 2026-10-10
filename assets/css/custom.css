@@ -281,3 +281,7 @@ section h2 + p {
 /* Hero social icons: smaller to match */
 #hero a.w-12.h-12 { width: 2.25rem !important; height: 2.25rem !important; }
 #hero a.w-12.h-12 svg { width: 1.0625rem !important; height: 1.0625rem !important; }
+
+/* Contact: no "Connect" heading or intro text, only the icon row */
+#contact [x-data] > div:first-child { display: none !important; }
+#contact h4 { margin-top: 0 !important; }

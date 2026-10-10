@@ -130,8 +130,6 @@ sections:
     id: contact
     content:
       title: Get in Touch
-      text: |-
-        I'm happy to talk about autonomous driving data, AI and product delivery.
       autolink: true
     design:
       columns: '1'
