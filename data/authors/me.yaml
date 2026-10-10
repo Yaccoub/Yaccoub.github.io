@@ -143,3 +143,10 @@ awards:
     icon: hero/document-text
     summary: |
       Short-term power forecasting for 22 photovoltaic plants across Karlsruhe with a bidirectional LSTM, improving accuracy by 13% over a SARIMAX baseline.
+  - title: "DIY Smart Microfluidic Pressure Pump"
+    url: https://github.com/Yaccoub/Smart_Pump
+    awarder: Open-source project · TranslaTUM
+    date: "2021-09-05"
+    icon: hero/beaker
+    summary: |
+      A low-cost, pressure-driven pump that transports microfluids at a stable flow rate as low as 0.1 µl/min, at a fraction of the cost of commercial alternatives.

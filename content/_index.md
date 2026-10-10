@@ -70,28 +70,13 @@ sections:
       spacing:
         padding: ["3rem", "0", "3rem", "0"]
 
-  # 5. Featured work and projects
-  - block: portfolio
-    id: work
+  # 5. Publications
+  - block: awards
+    id: publications
     content:
-      title: Work & Projects
-      subtitle: Selected work at BMW Group and projects from my studies.
-      count: 0
-      filters:
-        folders:
-          - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Product
-          tag: Product
-        - name: AI & Data
-          tag: AI & Data
-        - name: Research
-          tag: Research
-      default_button_index: 0
+      title: Publications
+      username: me
     design:
-      columns: 3
       background:
         color:
           light: "#ffffff"
@@ -142,18 +127,16 @@ sections:
       spacing:
         padding: ["3rem", "0", "3rem", "0"]
 
-  # 7. Teaching, publication and languages (one compact section)
+  # 7. Teaching and languages (one compact section)
   - block: markdown
     id: more
     content:
-      title: Teaching, Publication & Languages
+      title: Teaching & Languages
       text: |-
         **Workshops & Teaching**
         - AI workshops and hackathons, BMW Group (since 2024): co-organized a cross-departmental series for 200+ employees on building and applying agentic AI workflows.
         - Data Structures and Algorithms, Bavarian Academy for Foreign Trade (2022): taught 25 participants in a software development vocational retraining course.
 
-        **Publication**
-        - [Spatio-temporal Short Term Photovoltaic Generation Forecasting with Uncertainty Estimates](https://ieeexplore.ieee.org/document/9209764), 55th International Universities Power Engineering Conference (UPEC 2020), IEEE.
 
         **Languages**
         - French and Arabic (bilingual) · English and German (proficient) · Spanish (intermediate)

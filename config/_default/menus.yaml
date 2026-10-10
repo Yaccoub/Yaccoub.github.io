@@ -3,8 +3,8 @@ main:
   - name: About
     url: /#about
     weight: 10
-  - name: Work
-    url: /#work
+  - name: Publications
+    url: /#publications
     weight: 35
   - name: Experience
     url: /#experience

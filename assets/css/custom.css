@@ -209,3 +209,8 @@ section h2 + p {
   padding: 0 !important;
   background: none !important;
 }
+
+/* Publications: show the paper above the open-source project (the block sorts newest first) */
+#publications div.w-full.flex.flex-col.gap-6 {
+  flex-direction: column-reverse !important;
+}
