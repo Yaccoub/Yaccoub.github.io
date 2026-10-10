@@ -51,7 +51,7 @@ sections:
   - block: awards
     id: publications
     content:
-      title: Publications
+      title: Publication
       username: me
     design:
       background:
@@ -108,23 +108,22 @@ sections:
       spacing:
         padding: ["1.5rem", "0", "1.5rem", "0"]
 
-  # 7. Workshops, volunteering and languages (one compact section)
+  # 7. Also: workshops, volunteering, open source, languages
   - block: markdown
-    id: more
+    id: also
     content:
-      title: Workshops, Volunteering & Languages
+      title: Also
       text: |-
-        **Workshops:** AI workshops and hackathons, BMW Group (since 2024). Co-organized a series on agentic AI workflows for 200+ colleagues.
-
-        **Volunteering (Ehrenamtlich):** Instructor, Data Structures and Algorithms, Bavarian Academy for Foreign Trade (2022). Taught 25 participants in a software development retraining course.
-
-        **Languages:** French and Arabic (bilingual) · English and German (proficient) · Spanish (intermediate)
+        - **Workshops** BMW Group, since 2024. AI workshops and hackathons. Co-organized a series on agentic AI workflows for 200+ colleagues.
+        - **Volunteering** Instructor, Data Structures and Algorithms, Bavarian Academy for Foreign Trade (2022). Taught 25 participants in a software development retraining course.
+        - **Open source** [DIY Smart Microfluidic Pressure Pump](https://github.com/Yaccoub/Smart_Pump), TranslaTUM (2021). A low-cost, pressure-driven pump with a stable flow rate as low as 0.1 µl/min.
+        - **Languages** French and Arabic (bilingual) · English and German (proficient) · Spanish (intermediate)
     design:
       background:
         color:
           light: "#ffffff"
       spacing:
-        padding: ["1.25rem", "0", "1.25rem", "0"]
+        padding: ["1.5rem", "0", "1.5rem", "0"]
 
   # 8. Contact
   - block: contact-info
@@ -133,7 +132,6 @@ sections:
       title: Get in Touch
       text: |-
         I'm happy to talk about autonomous driving data, AI and product delivery.
-      email: yaccoubala@gmail.com
       autolink: true
     design:
       columns: '1'

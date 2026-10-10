@@ -211,9 +211,7 @@ section h2 + p {
 }
 
 /* Publications: show the paper above the open-source project (the block sorts newest first) */
-#publications div.w-full.flex.flex-col.gap-6 {
-  flex-direction: column-reverse !important;
-}
+
 
 /* Hero bio: the theme wraps the bio in a <p>, so multi-paragraph bios render as sibling <p>s
  * outside the styled wrapper. Restore colour, spacing and the gap before the social icons. */
@@ -226,4 +224,52 @@ section h2 + p {
 }
 #hero div.flex.items-center.justify-center.gap-4 {
   margin-top: 1.25rem;
+}
+
+
+/* ------------------------------------------------------------------
+ * Compact lower page: one 720px column, left-aligned titles, one rhythm.
+ * ------------------------------------------------------------------ */
+#publications > div, #skills > div, #also > div, #contact > div { max-width: 45rem; margin-left: auto; margin-right: auto; }
+#publications > div > div, #skills div[class*="max-w-6xl"], #contact div[class*="max-w-7xl"], #also > div { max-width: 45rem !important; padding-left: 1rem; padding-right: 1rem; }
+
+/* Titles: 24px, left-aligned, 12px below */
+#publications .text-3xl, #also .text-3xl, #skills h2, #contact h2 {
+  font-size: 1.5rem !important; line-height: 1.2 !important; margin: 0 0 0.75rem !important; text-align: left;
+}
+#skills div.text-center, #contact div.text-center { text-align: left !important; margin-bottom: 0.75rem !important; }
+#skills h2 + p, #contact h2 + p { margin: 0 !important; font-size: 0.9375rem !important; }
+
+/* Publication card */
+#publications .w-full.p-6 { padding: 0.875rem 1rem !important; border-radius: 0.75rem; background: #f5f5f7 !important; border-color: transparent !important; box-shadow: none !important; }
+#publications h5, #publications .text-2xl { font-size: 1rem !important; margin-bottom: 0.125rem !important; }
+#publications .mb-3 { margin-bottom: 0.375rem !important; }
+#publications .prose { font-size: 0.9375rem; line-height: 1.5; }
+
+/* Toolbox: one row per category, label left, pills right */
+#skills div[class*="max-w-6xl"] > div.space-y-12 > * + * { margin-top: 0.75rem !important; }
+#skills div[class*="max-w-6xl"] > div > div { margin-bottom: 0 !important; display: grid; grid-template-columns: 9.5rem 1fr; gap: 0.75rem; align-items: baseline; }
+#skills h3 { margin: 0 !important; justify-content: flex-start !important; color: #6e6e73 !important; letter-spacing: 0.08em; }
+#skills h3 span.h-px { display: none; }
+#skills div.flex-wrap.justify-center { justify-content: flex-start !important; gap: 0.375rem !important; }
+#skills .group.relative { padding: 0.25rem 0.7rem !important; background: #f5f5f7 !important; border-color: transparent !important; }
+
+/* Also: label column + text */
+#also .prose { max-width: none; font-size: 0.9375rem !important; line-height: 1.5 !important; }
+#also .prose ul { list-style: none; margin: 0 !important; padding: 0 !important; display: grid; gap: 0.625rem; }
+#also .prose li { margin: 0 !important; padding: 0 0 0 9.5rem !important; position: relative; }
+#also .prose li::marker { content: ""; }
+#also .prose li > strong:first-child { position: absolute; left: 0; width: 8.75rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #6e6e73; padding-top: 0.125rem; }
+#also .prose a { color: #0071e3; }
+#also > div > div { gap: 0 !important; align-items: stretch !important; max-width: none !important; padding: 0 !important; }
+
+/* Contact: slim card */
+#contact .max-w-3xl, #contact div[class*="rounded-2xl"] { padding: 1rem 1.25rem !important; border-radius: 0.875rem; }
+#contact .space-y-6 > * + *, #contact .space-y-4 > * + * { margin-top: 0.625rem !important; }
+#contact h3 { font-size: 1rem !important; margin-bottom: 0.25rem !important; }
+
+@media (max-width: 520px) {
+  #skills div[class*="max-w-6xl"] > div > div { grid-template-columns: 1fr; gap: 0.25rem; }
+  #also .prose li { padding-left: 0 !important; }
+  #also .prose li > strong:first-child { position: static; display: block; width: auto; }
 }
