@@ -230,8 +230,7 @@ section h2 + p {
 /* ------------------------------------------------------------------
  * Compact lower page: one 720px column, left-aligned titles, one rhythm.
  * ------------------------------------------------------------------ */
-#publications > div, #skills > div, #also > div, #contact > div { max-width: 45rem; margin-left: auto; margin-right: auto; }
-#publications > div > div, #skills div[class*="max-w-6xl"], #contact div[class*="max-w-7xl"], #also > div { max-width: 45rem !important; padding-left: 1rem; padding-right: 1rem; }
+#publications div.max-w-prose, #also div.max-w-prose, #skills div[class*="max-w-6xl"], #contact div[class*="max-w-7xl"] { max-width: 45rem !important; width: 100%; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; align-items: stretch !important; }
 
 /* Titles: 24px, left-aligned, 12px below */
 #publications .text-3xl, #also .text-3xl, #skills h2, #contact h2 {
@@ -261,7 +260,7 @@ section h2 + p {
 #also .prose li::marker { content: ""; }
 #also .prose li > strong:first-child { position: absolute; left: 0; width: 8.75rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #6e6e73; padding-top: 0.125rem; }
 #also .prose a { color: #0071e3; }
-#also > div > div { gap: 0 !important; align-items: stretch !important; max-width: none !important; padding: 0 !important; }
+#also div.max-w-prose { gap: 0 !important; }
 
 /* Contact: slim card */
 #contact .max-w-3xl, #contact div[class*="rounded-2xl"] { padding: 1rem 1.25rem !important; border-radius: 0.875rem; }
