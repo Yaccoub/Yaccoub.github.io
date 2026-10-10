@@ -82,7 +82,6 @@ sections:
             - name: MCP
             - name: Langfuse
             - name: vLLM
-            - name: LiDAR
             - name: Sensor Calibration & Fusion
         - name: Cloud & Engineering
           items:
@@ -91,11 +90,15 @@ sections:
             - name: PyTorch
               icon: devicon/pytorch
             - name: Amazon Bedrock
+              icon: hero/sparkles
             - name: Amazon SageMaker
+              icon: hero/cpu-chip
             - name: AWS Batch
+              icon: hero/server-stack
             - name: Kubernetes
               icon: devicon/kubernetes
             - name: Argo Workflows
+              icon: brands/argo
     design:
       style: grid
       show_levels: false
